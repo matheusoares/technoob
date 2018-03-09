@@ -1,0 +1,911 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.top{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background-color: #302f31;
+    float: left;
+    position: initial;    
+}
+
+/*incCabecalho*/
+.cabecalho{
+    width: 1200px;
+    height: 120px;
+    background-color: #302f31;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.cabecalho .logo{
+    margin: 0 470px 0 80px;
+    padding: 0;
+    float: left;
+    width: 250px;
+    height: 120px;
+}
+
+.cabecalho .iconFace{
+    margin: 42.5px 5px 42.5px 0;
+    padding: 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.iconFace:hover, .iconTwitter:hover, .iconYoutube:hover{
+    background-color: #FFFFFF;
+}
+
+.iconPesquisar:hover{
+    background-color: #FFFFFF;
+}
+
+.cabecalho .iconTwitter{
+    margin: 42.5px 5px 42.5px 0;
+    padding: 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.cabecalho .iconYoutube{
+    margin: 42.5px 5px 42.5px 0;
+    padding: 0;
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.cabecalho .searchText{
+    color: #20b2aa;
+    float: left;
+    font-family: Arial;
+    font-size: 13px;
+    height: 30px;
+    margin: 42.5px 5px 42.5px 0;
+    padding: 0;
+    width: 205px;
+    position: relative;
+}
+
+.cabecalho .iconPesquisar{
+    margin: 42.5px 5px 42.5px 0;
+    padding: 0;
+    float: left;
+    width: 40px;
+    height: 35px;
+}
+
+#menu{ 
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 600;
+    clear: both;
+}
+
+#menu ul{
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #20b2aa;
+}
+
+#menu li{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li a {
+    padding: 4px 20px;
+    margin: 0;
+    display: inline-block;
+    background-color: #20b2aa;
+    color: #302f31;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #302f31;
+    color: #20b2aa;
+    height: 100%;
+} /*fim incCabecalho*/
+
+/*index*/
+.armacaoHome{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+/*Slider*/
+.armacaoHome #slider{
+    margin: 170px auto 20px auto;
+    padding: 0;
+}
+
+ul.bjqs{
+    position:relative; 
+    list-style:none;
+    padding:0;
+    margin:0;
+    overflow:hidden; 
+    display:none;
+}
+li.bjqs-slide{
+    position:absolute; 
+    display:none;
+}
+ul.bjqs-controls{
+    list-style:none;
+    margin:0;
+    padding:0;
+    z-index:9999;
+}
+ul.bjqs-controls.v-centered li a{
+    position:absolute;
+    display:block;
+    padding:10px;
+    background:rgba(255,255,255,0.3);
+    color:#000000;
+    text-decoration: none;
+    margin:-300px 0 0 0;
+    font-size: 40px;
+
+}
+ul.bjqs-controls.v-centered li a:hover{
+    color: #00ffff;
+
+}
+ul.bjqs-controls.v-centered li.bjqs-next a{
+    right:0; 
+}
+ul.bjqs-controls.v-centered li.bjqs-prev a{
+    left:0;
+}
+ul.bjqs-markers{
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+    width:100%;
+}
+ul.bjqs-markers.h-centered{
+    text-align: center;
+}
+ul.bjqs-markers li{
+    display:inline;
+}
+ul.bjqs-markers li a{
+    display:inline-block;
+    padding:5px 10px;
+    background:#000;
+    color:#fff;
+    margin:5px 5px 15px 5px;
+    text-decoration: none;
+}
+ul.bjqs-markers li.active-marker a,
+ul.bjqs-markers li a:hover{
+    background: #3c3c3c;
+    color: #000000;
+}
+p.bjqs-caption{
+    display:block;
+    width:96%;
+    margin:0;
+    padding:2%;
+    position:absolute;
+    bottom:0;
+    background-color:rgba(255,255,255,0.7); 
+    color:#302F31;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+} /*fim slider*/
+
+.homeGames{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.TcontGames {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #20b2aa;
+    position: relative;
+    float: left;
+}
+
+.contGamesP {
+    height: 34px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #302f31;
+    position: relative;
+    float: left;
+}
+
+.setaBack {
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.setaNext {
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.contGames{
+    width: 100%;
+    height: 460px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+.contGames .contGamesBox1{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 37.5px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contGames .contGamesBox2{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contGames .contGamesBox3{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contGames .contGamesBox4{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 37.5px;
+    padding: 0 ;
+    float: left;
+    position: relative;
+}
+
+.contGames .contGamesBox5{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contGames .contGamesBox6{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contGames img{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.contGames p{
+    width: 100%;
+    height: 60px;
+    margin: 140px 0 0 0;
+    padding: 0;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: arial;
+    color: #FFFFFF;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+
+.homeTecnologia{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.TcontTecnologia {
+    width: 100%;
+    height: 40px;
+    margin: 25px 0 0 0;
+    padding: 0;
+    background-color: #20b2aa;
+    position: relative;
+    float: left;
+}
+
+.contTecnologiaP {
+    height: 34px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #302f31;
+    position: relative;
+    float: left;
+}
+
+.contTecnologia{
+    width: 100%;
+    height: 460px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+.contTecnologia .contTecnologiaBox1{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 37.5px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contTecnologia .contTecnologiaBox2{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contTecnologia .contTecnologiaBox3{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contTecnologia .contTecnologiaBox4{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 37.5px;
+    padding: 0 ;
+    float: left;
+    position: relative;
+}
+
+.contTecnologia .contTecnologiaBox5{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contTecnologia .contTecnologiaBox6{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contTecnologia img{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.contTecnologia p{
+    width: 100%;
+    height: 60px;
+    margin: 140px 0 0 0;
+    padding: 0;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: arial;
+    color: #FFFFFF;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+
+.homeMobile{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.TcontMobile {
+    width: 100%;
+    height: 40px;
+    margin: 25px 0 0 0;
+    padding: 0;
+    background-color: #20b2aa;
+    position: relative;
+    float: left;
+}
+
+.contMobileP {
+    height: 34px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #302f31;
+    position: relative;
+    float: left;
+}
+
+.contMobile{
+    width: 100%;
+    height: 460px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+.contMobile .contMobileBox1{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 37.5px;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contMobile .contMobileBox2{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contMobile .contMobileBox3{
+    width: 350px;
+    height: 200px;
+    margin: 20px 37.5px 10px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contMobile .contMobileBox4{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 37.5px;
+    padding: 0 ;
+    float: left;
+    position: relative;
+}
+
+.contMobile .contMobileBox5{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contMobile .contMobileBox6{
+    width: 350px;
+    height: 200px;
+    margin: 10px 37.5px 20px 0;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+
+.contMobile img{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.contMobile p{
+    width: 100%;
+    height: 60px;
+    margin: 140px 0 0 0;
+    padding: 0;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: arial;
+    color: #FFFFFF;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+
+/*incRodape*/
+.rodape{
+    width: 100%;
+    height: 18px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    background-color: #20b2aa;
+    float: left;
+    clear: both;
+}
+
+.rodape p{
+    width: 100%;
+    float: left;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+
+
+
+/*pagPostagem*/
+.armacaoPostagem{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+
+.leftPostagem{
+    width: 800px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    float: left;
+}
+
+.leftPostagem h1{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 26px;
+    font-family: "Open Sans";
+    text-transform: initial;
+    font-weight: 100;
+    text-indent: 15px;
+}
+
+.dataPost{
+    height: 20px;
+    margin: 0 15px 0 15px;
+    padding: 0;
+    float: left;
+    color: #000000;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.autorPost{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    color: #000000;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.ilustracaoPostagem{
+    width: 750px;
+    height: 400px;
+    margin: 15px;
+    padding: 0;
+    float: left;
+}
+
+.ilustracaoPostagem img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.leftPostagem h3{
+    width: 100%;
+    float: left;
+    margin: 0 0 50px 0;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 100;
+    text-align: justify;
+}
+
+.rightPostagem{
+    width: 300px;
+    height: 1010px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    float: right;
+}
+
+.rightPostagem img{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.socialPluginFace{
+    margin: 5px 0 5px 0;
+    padding: 0;
+    background-color: #20b2aa;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+/*Fim pagPostagem*/
+
+
+
+
+/*pagCategoriaGames*/
+.armacaoCategoriaGames{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+
+.leftCategoriaGames{
+    width: 800px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+.boxCategoriaGames{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    float: left;
+    border: 2px solid #20b2aa;
+}
+
+.leftCategoriaGames h1{
+    width: 100%;
+    float: left;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #000000;
+    font-size: 26px;
+    font-family: "Open Sans";
+    text-transform: initial;
+    font-weight: 100;
+    text-align: center;
+}
+
+.ilustracaoCategoriaGames img{
+    width: 350px;
+    height: 250px;
+    margin: 0 0 10px 15px;
+    padding: 0;
+    float: left;
+}
+
+.leftCategoriaGames h3{
+    margin: 50px 10px 0 400px;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 100;
+    text-align: justify;
+}
+
+.rightCategoriaGames{
+    width: 300px;
+    height: 1010px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    float: right;
+}
+
+.rightCategoriaGames img{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*Fim pagCategoriaGames*/
+
+/*pagCategoriaTecnologia*/
+/*Fim pagCategoriaTecnologia*/
+
+/*pagCategoriaMobile*/
+.armacaoCategoriaMobile{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+
+.leftCategoriaMobile{
+    width: 800px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    float: left;
+    clear: both;
+}
+
+.boxCategoriaMobile{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    float: left;
+    border: 2px solid #20b2aa;
+}
+
+.leftCategoriaMobile h1{
+    width: 100%;
+    float: left;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #000000;
+    font-size: 26px;
+    font-family: "Open Sans";
+    text-transform: initial;
+    font-weight: 100;
+    text-align: center;
+}
+
+.ilustracaoCategoriaMobile img{
+    width: 350px;
+    height: 250px;
+    margin: 0 0 10px 15px;
+    padding: 0;
+    float: left;
+}
+
+.leftCategoriaMobile h3{
+    margin: 50px 10px 0 400px;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 100;
+    text-align: justify;
+}
+
+.rightCategoriaMobile{
+    width: 300px;
+    height: 1010px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    float: right;
+}
+
+.rightCategoriaMobile img{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*Fim pagCategoriaMobile*/
+.telaLogin{
+    width: 100%;
+    height: 100%;
+    background-color: #302f31;
+    margin: 0;
+    padding: 0;
+}
+.logoLogin{
+    width: 600px;
+    height: 160px;
+    margin: 50px 0 50px 0;
+    padding: 0;
+}
+.loginEmail{
+    color: #fff;
+}
+.loginSenha{
+    color: #fff;
+}
+
+#admMenu{
+    margin: 180px 0 0 0;
+}
+
+/* Edição de HR */
+hr{
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}

@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+ 
+     RewriteRule ^Inicio/?$ index.php [NC,L]
+    
+    RewriteRule ^Postagens/?$  postagem.php [NC,L]
+    RewriteRule ^Categoria/?$ categoria.php [NC,L]
+    RewriteRule ^Busca/?$ buscaResult.php [NC,L]
+    
+    
+
+</IfModule>

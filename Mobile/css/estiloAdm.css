@@ -1,0 +1,90 @@
+#admTitle{
+   margin:150px 0 10px 30px;
+   font-size:50px;    
+}
+#admMenu{
+    font-size:40px;
+    margin:0 10px 30px 30px;
+}
+.admCab{
+    margin:0 0 0 -36px;
+}
+#admCab li{
+    font-size:40px;
+    display:inline;
+    background:#000000;
+    color:#ffffff;
+    margin:0 0 0 -2px;
+    padding: 10px 20px 10px -1px;
+}
+#criarPost{
+    width: 85.2%;
+    background-color:#555555;
+    margin: 10px 2px 10px 54px;
+    height:900px;
+    float:left;
+    height:500px;
+    display: none;
+}
+#inputTitulo{
+    width:45%;
+    height:50px;
+    margin:60px 10px 10px 60px;
+    font-size:30px;
+}
+
+#inputLink{
+    width:65%;
+    height:50px;
+    margin:10px 10px 10px 60px;
+    font-size:30px;
+}
+#inputTexto{
+    width:85%;
+    height:200px;
+    margin:10px 10px 10px 60px;
+    font-size:30px;
+}
+#btnEnviar{
+    width:100px;
+    height:50px;
+    margin:10px 0 10px 400px;
+    font-size:25px;
+    background-color:#000000;
+    color:#ffffff;
+}
+#editarPost{
+    width: 326.6px;
+    background-color:#555555;    
+    margin: 10px 1px 0 0px ;
+    height:100px;
+    float:left;
+    display: none;
+}
+#excluirPost{
+    width: 337.6px;
+    backg#inputLink{
+    width:85%;
+    height:50px;
+    margin:10px 10px 10px 60px;
+}
+#inputTexto{
+    width:85%;
+    height:50px;
+    margin:10px 10px 10px 60px;
+}round-color:#555555;
+    margin: 10px 0px 0 1px ;
+    height:100px;
+    float:left;
+    display: none;
+}
+#sair{
+    float:right;
+    margin:-90px 10px 10px 0px;
+    font-size:40px; 
+    text-decoration:none;
+    color:#eeeeee;
+    font-weight:bold;
+    background-color:#000000;
+    padding:10px;
+}

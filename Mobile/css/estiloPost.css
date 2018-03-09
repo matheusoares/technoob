@@ -1,0 +1,55 @@
+#postArmacao{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+#back {
+    position: absolute;
+    left: 18px;
+    top: 188px;
+    border-left: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-right: 13px solid #000000; ;
+}
+#titlePost{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 200px 0 0 30px;
+    height: 60px;
+    font-size: 3em;
+    padding: 22.5px 0 96.5px 18px;
+
+}
+#midia{
+    margin: 49px 10px 10px 10px;
+    padding: 0;
+    height: 595px;
+    width: 80%;
+    float: left;
+}
+#midia img{
+    width: 88%;
+    height: 595px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#midia #legenda{
+    float: left;
+    margin: 76% 0 0 -88%;
+    background:rgba(0,0,0,0.3);
+    width: 689px;
+    padding: 10px 0 10px 0;
+}
+#textPost{
+    margin: 732px 0 0 10px;
+    padding: 0;
+}
+#textPost p{
+    font-size: 37.5px;
+    display: block;
+    text-indent: 40px;
+    text-align: justify;
+}

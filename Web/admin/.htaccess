@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+ 
+    RewriteRule ^Inicio/?$ index.php [NC,L]
+    
+    RewriteRule ^LLista/?$  listaLivro.php [NC,L]
+    RewriteRule ^LCadastro/?$ cadLivro.php [NC,L]
+    RewriteRule ^LCadastroLG/?$ cadLivro2.php [NC,L]
+
+    RewriteRule ^ALista/?$  listaAutor.php [NC,L]
+    RewriteRule ^ACadastro/?$ cadAutor.php [NC,L]
+    RewriteRule ^ACadastroLG/?$ cadAutor2.php [NC,L]
+    
+    RewriteRule ^CLista/?$ listaCategoria.php [NC,L]
+    RewriteRule ^CCadastro/?$ cadCategoria.php [NC,L]
+    RewriteRule ^CCadastroLG/?$ cadCategoria2.php [NC,L]
+    
+    RewriteRule ^UCadastro/?$ cadUsuario.php [NC,L]
+    RewriteRule ^UCadastroLG/?$ cadUsuario2.php [NC,L]
+
+    RewriteRule ^Login/?$ login.php [NC,L]
+    RewriteRule ^LoginLG/?$ login2.php [NC,L]
+
+</IfModule>

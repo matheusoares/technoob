@@ -1,0 +1,151 @@
+#admTitle{
+    margin:150px 0 10px 30px;
+    font-size:50px;    
+}
+#admTitle a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 3px;
+    margin-left: 75px;
+    font-weight: 100;
+}
+#inicio{
+    margin: -75px 45px 153px -18px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    float: right;
+    background-color: #000000;
+}
+#admBox iframe{
+    margin-left: 50px;
+}
+#admMenu{
+    font-size: 40px;
+    margin: 0 10px 30px 30px;
+    font-weight: bold;
+}
+#sair{
+    float:right;
+    margin:-90px 10px 10px 0px;
+    font-size:40px; 
+    text-decoration:none;
+    color:#eeeeee;
+    font-weight:bold;
+    background-color:#000000;
+    padding:10px;
+}
+#ultPost{
+    margin-left: 58px;
+    background: #000000;
+    color: #eeeeee;
+    padding-left: 17px;
+    height: 80px;
+    font-size: 50px;
+}
+#ultPostTitle{
+    margin-left: 49px;
+    font-size: 49px;  
+}
+#ultPostInf{
+    font-size: 28px;
+    margin: -14px 0 0 47px; 
+    font-weight: bold;
+}
+#editarPost{
+    color: #000000;
+    margin-left: 48%;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: bolder;
+}
+#excluirPost{
+    color: #000000;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+#ativaPost{
+    color: #000000;
+    text-decoration: none;
+    font-size: 44px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+#addPost{
+    margin-left: 706px;
+    float: left;
+    margin-top: -91px;
+    font-size: 49px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 3px;
+}
+/* Edição de HR */
+hr{
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #eeeeee;
+}
+/*======================================================*/
+#addBox{
+    margin-top: 173px;
+    text-align: center;
+    font-size: 30px;
+}
+#addBox label{
+    font-size: 60px;
+}
+#addBox input{
+    height: 54px;
+    width: 400px;
+    margin: 0 65px;
+    font-size: 45px;
+}
+#addBox form{
+    text-align: justify;
+}
+#addBox textarea{
+    height: 238px;
+    width: 80%;
+    margin: 0 93px;
+    font-size: 45px;
+}
+#addBox select{
+    height: 67px;
+    width: 327px;
+    font-size: 34px;
+}
+.tituloPaginas{
+    font-weight: bold;
+    font-size: 65px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-left: 87px;
+}
+.tituloPaginas a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 49px;
+    margin-left: 273px;
+}
+.btnCad{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 45px;
+}

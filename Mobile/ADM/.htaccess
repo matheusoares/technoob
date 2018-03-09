@@ -1,0 +1,25 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+ 
+     RewriteRule ^Inicio/?$ index.php [NC,L]
+    
+    RewriteRule ^Postagens/?$  postagem.php [NC,L]
+    RewriteRule ^Categoria/?$ categoria.php [NC,L]
+    RewriteRule ^Adicionar-Post/?$ addPost.php [NC,L]
+
+    RewriteRule ^ConfirmarPost/?$  addPost2.php [NC,L]
+    RewriteRule ^Login/?$ login.php [NC,L]
+    RewriteRule ^Logout/?$ logout.php [NC,L]
+    
+    RewriteRule ^Ativar-Post/?$ ativaPost.php [NC,L]
+    RewriteRule ^Desativar-Post/?$ desativaPost.php [NC,L]
+    RewriteRule ^Editar/?$ editaPost.php [NC,L]
+    RewriteRule ^Editar2/?$ editaPost2.php [NC,L]
+    
+    RewriteRule ^Deletar/?$ deletaPost.php [NC,L]
+    RewriteRule ^Cadastrar-Usuario/?$ cadUsuario.php [NC,L]
+    RewriteRule ^Cadastrar-Usuario2/?$ cadUsuario2.php [NC,L]
+    RewriteRule ^Ajuda/?$ ajuda.php [NC,L]
+    
+
+</IfModule>
